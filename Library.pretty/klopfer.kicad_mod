@@ -1,0 +1,138 @@
+(footprint "klopfer"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5 0)
+		(layer "F.SilkS")
+		(uuid "5e853188-7db5-4249-bfc2-e223c1e8a284")
+		(effects
+			(font
+				(size 5 5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "klopfer"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e81205ae-acf2-4bd1-8525-f3b1a164687f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6fd382a5-f94a-43e5-b14a-c32a2a2c9475")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7fe6a552-23f7-4ec2-a4e4-3c15163555ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "641f5465-d5ed-4147-8cea-39e35ff90795")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 9.28 0.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "502830e1-1cde-4fa2-bb22-1407ce53fc4e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 17.5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "5d2bcaad-3b53-49b5-8cd8-d4c3e7473fb3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.1 2.83 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "211aa3d6-e8dc-40d8-afcd-3b14a547f4d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -12.246 7.071)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "F&B.Cu" "*.Mask")
+		(clearance 1.2)
+		(uuid "c8e01e26-042d-4fb6-95b3-0fb9a3514192")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -14.14)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "F&B.Cu" "*.Mask")
+		(clearance 1.2)
+		(uuid "ed4382af-7860-4235-97f1-44adff0a8770")
+	)
+	(pad "" np_thru_hole circle
+		(at 12.246 7.071)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "F&B.Cu" "*.Mask")
+		(clearance 1.2)
+		(uuid "c1876008-6f84-4e0a-ade3-55b513cb554e")
+	)
+	(model "${KIPRJMOD}/Bottle_M18_v2-Mount_Cap.step"
+		(offset
+			(xyz 0 0 9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 180 0 180)
+		)
+	)
+)

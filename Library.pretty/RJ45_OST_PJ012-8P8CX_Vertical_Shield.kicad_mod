@@ -1,0 +1,352 @@
+(footprint "RJ45_OST_PJ012-8P8CX_Vertical_Shield"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "RJ45 vertical connector https://www.on-shore.com/wp-content/uploads/PJ012-8P8CX.pdf")
+	(tags "RJ45 PJ012")
+	(property "Reference" "REF**"
+		(at 4.45 14 0)
+		(layer "F.SilkS")
+		(uuid "15fecc1a-d18d-4ef0-a525-deffdc52d4c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RJ45_OST_PJ012-8P8CX_Vertical_Shield"
+		(at 4.59 2.54 0)
+		(layer "F.Fab")
+		(uuid "bdd2003a-d0fe-452b-97a6-77e542c09ecd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Connector_RJ:RJ45_OST_PJ012-8P8CX_Vertical"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62271be8-7b48-4281-8fff-6c73988b8b22")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e29d54e5-f48c-4f82-b46b-d0a65d551f8e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "243a8035-e149-415e-bf22-068d684629c9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4 -0.5)
+		(end -4 0.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a270b8f6-cd58-4039-bae8-b4e8c10b8466")
+	)
+	(fp_line
+		(start -4 0.5)
+		(end -3.5 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fbdebc44-7f06-4c04-88fe-00513a764389")
+	)
+	(fp_line
+		(start -3.5 0)
+		(end -4 -0.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f83899b4-3654-47cb-83de-48d63c57e3f4")
+	)
+	(fp_line
+		(start -3.42 -3.79)
+		(end -3.42 12.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f0a68dd5-354e-4d18-b65b-586d2a3834fe")
+	)
+	(fp_line
+		(start 12.3 -3.79)
+		(end -3.42 -3.79)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea617804-b41a-4764-bafd-9ad5400dbabe")
+	)
+	(fp_line
+		(start 12.31 -3.79)
+		(end 12.31 12.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4f75a383-32ff-4ccb-99f8-b572895da428")
+	)
+	(fp_line
+		(start 12.31 12.95)
+		(end -3.42 12.95)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "de4d1607-c63d-48e5-a9e9-0c0a4011a687")
+	)
+	(fp_line
+		(start -3.8 -4.17)
+		(end -3.8 13.33)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "48d5ed85-1e1b-489b-bb4f-c1ae1a4e8e78")
+	)
+	(fp_line
+		(start -3.8 -4.17)
+		(end 12.69 -4.17)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "50cfa39f-226b-4d47-a307-96e36c129646")
+	)
+	(fp_line
+		(start -3.8 13.33)
+		(end 12.69 13.33)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "18e5aabd-f40c-4577-b258-c67d67b9ade0")
+	)
+	(fp_line
+		(start 12.69 -4.17)
+		(end 12.69 13.33)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "626e91b0-3130-4a54-8a01-a2ad37fee6e0")
+	)
+	(fp_line
+		(start -4 -0.5)
+		(end -4 0.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1b83a1c6-61ce-4528-b76f-e0190c605b95")
+	)
+	(fp_line
+		(start -4 0.5)
+		(end -3.5 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "381b9d30-c3b4-43c6-9d77-ec8cc42c745a")
+	)
+	(fp_line
+		(start -3.5 0)
+		(end -4 -0.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ad266dac-77ec-4a6c-aaff-3834ac12fd75")
+	)
+	(fp_line
+		(start -3.305 -3.67)
+		(end -3.305 12.83)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c014b1f9-c742-44d4-9300-6ea5a3b75c6d")
+	)
+	(fp_line
+		(start 12.195 -3.67)
+		(end -3.305 -3.67)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2ad2aada-73a9-4f39-8de0-96f8b4e345e3")
+	)
+	(fp_line
+		(start 12.195 -3.67)
+		(end 12.195 12.83)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "87baa589-0ac6-488d-8618-8c3a87947214")
+	)
+	(fp_line
+		(start 12.195 12.83)
+		(end -3.305 12.83)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c02c9e40-555e-411a-ba6f-4574a311c59b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 4.7 6.35 0)
+		(layer "F.Fab")
+		(uuid "c89b1f6d-33eb-4651-b7be-52fd32b70582")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "19a25b25-0399-496f-b032-9883b4687630")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 -2.54)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0d7e946b-bd62-4e3a-985f-7e40ee50dc8d")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dbe49dbe-d649-425f-a493-255883389ff8")
+	)
+	(pad "4" thru_hole circle
+		(at 3.81 -2.54)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a16625c4-939b-40a0-9120-fcc3c96e1fc5")
+	)
+	(pad "5" thru_hole circle
+		(at 5.08 0)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ab612480-eb50-44bc-ac98-a681db6add2d")
+	)
+	(pad "6" thru_hole circle
+		(at 6.35 -2.54)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7a129dac-8af8-45c3-af61-7ab25218f62a")
+	)
+	(pad "7" thru_hole circle
+		(at 7.62 0)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "31bdd77c-3829-4cdf-bfb5-e96b86b5412e")
+	)
+	(pad "8" thru_hole circle
+		(at 8.89 -2.54)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "212292fb-c3dd-4ca0-b455-2fd339229717")
+	)
+	(pad "SH" thru_hole circle
+		(at -1.27 6.35)
+		(size 3.65 3.65)
+		(drill 3.45)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "356d6014-ec0f-4081-9b26-51663cd52244")
+	)
+	(pad "SH" thru_hole circle
+		(at 10.16 6.35)
+		(size 3.65 3.65)
+		(drill 3.45)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1b9c3c56-1ecd-467d-a744-9198036f0fa7")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_OST_PJ012-8P8CX_Vertical.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
