@@ -88,6 +88,80 @@
 		(layer "F.SilkS")
 		(uuid "5d2bcaad-3b53-49b5-8cd8-d4c3e7473fb3")
 	)
+	(fp_line
+		(start -13.904489 4.164376)
+		(end -3.36 -14.14)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "ff437ae6-4fe1-452f-ad02-351066426cbf")
+	)
+	(fp_line
+		(start 3.36 -14.14)
+		(end 13.937896 4.07673)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "dda15451-839b-4b97-8f8e-6b5d0d7fee02")
+	)
+	(fp_line
+		(start 10.577896 9.896422)
+		(end -10.544489 9.984068)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "93481a38-9b06-4385-b441-29fb791d8840")
+	)
+	(fp_arc
+		(start -10.544489 9.984068)
+		(mid -15.134335 8.754222)
+		(end -13.904489 4.164376)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "fbe1463e-1258-415b-81b1-33e3df382ded")
+	)
+	(fp_arc
+		(start -3.36 -14.14)
+		(mid 0 -17.5)
+		(end 3.36 -14.14)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c070f9c4-1f17-41ad-a878-f1ce2a84a520")
+	)
+	(fp_arc
+		(start 13.937896 4.07673)
+		(mid 15.167742 8.666576)
+		(end 10.577896 9.896422)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "bc305e3c-346b-4487-b056-6c890c1b1efe")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "179ac09b-51a7-4236-bcb0-35f55a533186")
+	)
 	(fp_text user "${REFERENCE}"
 		(at -0.1 2.83 0)
 		(unlocked yes)
